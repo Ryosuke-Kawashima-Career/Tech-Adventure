@@ -131,6 +131,9 @@ __pypackages__/
 celerybeat-schedule
 celerybeat.pid
 
+# Agent
+.gemini/
+
 # Redis
 *.rdb
 *.aof
