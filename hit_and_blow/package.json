@@ -1,0 +1,23 @@
+{
+  "name": "hit_and_blow",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  },
+  "devDependencies": {
+    "@types/node": "^16.4.3",
+    "typescript": "^6.0.3"
+  }
+}

@@ -134,6 +134,11 @@ celerybeat.pid
 # Agent
 .gemini/
 
+# hit_and_blow
+node_modules/
+dist/
+*.log
+
 # Redis
 *.rdb
 *.aof
