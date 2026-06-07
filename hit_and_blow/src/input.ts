@@ -12,7 +12,7 @@ export function createInterface(): readline.Interface {
 
 export function ask(rl: readline.Interface, question: string): Promise<string> {
     return new Promise((resolve) => {
-        rl.question(question, (answer) => {
+        rl.question(question, (answer: string) => {
             resolve(answer.trim());
         })
     });
